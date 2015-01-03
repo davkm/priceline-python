@@ -1,0 +1,48 @@
+{
+    "airSearchReq":{
+        "trip":[],
+        "sortPrefs":[
+            {
+                "type":"PRICE",
+                "order":"ASC",
+                "priority":1
+            },
+            {
+                "type":"DEPARTTIME",
+                "order":"ASC",
+                "priority":2
+            },
+            {
+                "type":"TRAVELTIME",
+                "order":"ASC",
+                "priority":3
+            }
+        ],
+        "includeSliceSummary":"false",
+        "includeFilteredTripSummary":"false",
+        "passenger":[
+            {
+                "type":"ADT",
+                "numOfPax":1
+            }
+        ],
+        "itineraryType":"ONE_WAY",
+        "searchOptions":{
+            "excludedCarriers":[
+
+            ],
+            "carrierPref":[
+
+            ]
+        },
+        "requestId":"S8etnBdSgBImOz5Qds8k",
+        "includeFullTripSummary":"false",
+        "displayParameters":{
+            "lowerBound":1,
+            "sliceRefId":[
+                1
+            ],
+            "upperBound":100
+        }
+    }
+}
